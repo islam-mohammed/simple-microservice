@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "posts": "npm start --prefix posts",
+    "comments": "npm start --prefix comments",
+    "event-bus": "npm start --prefix event-bus",
+    "query": "npm start --prefix query"
+  },
+  "author": "",
+  "license": "ISC"
+}
