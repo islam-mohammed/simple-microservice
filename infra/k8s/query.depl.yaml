@@ -1,22 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: posts-depl
+  name: query-depl
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: posts
+      app: query
   template:
     metadata:
       labels:
-        app: posts
+        app: query
     spec:
       containers:
-      - name: posts
-        image: islam1978/posts:latest
+      - name: query
+        image: islam1978/query
         resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
-

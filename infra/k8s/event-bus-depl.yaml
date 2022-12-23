@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: event-bus
-        image: islam1978/event-bus:latest
+        image: islam1978/event-bus
         resources:
           limits:
             memory: "128Mi"
